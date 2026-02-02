@@ -1,0 +1,121 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1'.
+INFO: [HLS 200-1611] Setting target device to 'xa7z010-clg225-1I'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../RISCV-RV32I-H1/riscv32i.cc' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/RISCV-RV32I-H1/riscv32i.cc' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../RISCV-RV32I-H1/riscv32i.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/RISCV-RV32I-H1/riscv32i.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../RISCV-RV32I-H1/riscv32i_tb.cc' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/RISCV-RV32I-H1/riscv32i_tb.cc' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../RISCV-RV32I-H1/mem.txt' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/RISCV-RV32I-H1/mem.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cpu' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xa7z010clg225-1I' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/vitis-comp.json
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_cpu.cpp
+   Compiling riscv32i.cc_pre.cc.tb.cc
+   Compiling riscv32i_tb.cc_pre.cc.tb.cc
+   Compiling apatb_cpu_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Illegal instruction at PC = 00000000
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [HLS 200-2164] SVUVM flow is disabled due to use of volatile pointer
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readwrite
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\sim\verilog>set PATH= 
+
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_cpu_top glbl -Oenable_linking_all_libraries  -prj cpu.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -s cpu  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_cpu_top glbl -Oenable_linking_all_libraries -prj cpu.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -s cpu 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/AESL_automem_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_cpu_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_cpu_Pipeline_PROGRAM_LOOP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu_cpu_Pipeline_VITIS_LOOP_22_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_cpu_Pipeline_VITIS_LOOP_22_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu_reg_file_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_reg_file_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.cpu_reg_file_RAM_1WNR_AUTO_1R1W
+Compiling module xil_defaultlib.cpu_flow_control_loop_pipe_seque...
+Compiling module xil_defaultlib.cpu_cpu_Pipeline_VITIS_LOOP_22_1
+Compiling module xil_defaultlib.cpu_cpu_Pipeline_PROGRAM_LOOP
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.AESL_automem_mem
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=8)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_cpu_top
+Compiling module work.glbl
+Built simulation snapshot cpu
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sun Jan 25 20:20:22 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/cpu/xsim_script.tcl
+# xsim {cpu} -autoloadwcfg -tclbatch {cpu.tcl}
+Time resolution is 1 ps
+source cpu.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "565000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 625 ns : File "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu.autotb.v" Line 275
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jan 25 20:20:29 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+WARNING: [SIM 212-201] RTL produces unknown value 'x' or 'X' on some port, possible cause: There are uninitialized variables in the design.
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 1 seconds. Total elapsed time: 60.601 seconds; peak allocated memory: 214.438 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 5s

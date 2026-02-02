@@ -11,10 +11,15 @@ int main(void) {
 	strb_t* pstrb = &wstrb;
 
 	// Initialize the memory
-	FILE* fptr = fopen("../../../../mem.txt", "r");
+	FILE* fptr = fopen("mem.txt", "r");
+	if (!fptr) { perror("mem.txt open failed");}
+	printf("mem[0]=%08x mem[1]=%08x\n", (uint32_t)mem[0], (uint32_t)mem[1]);
+	unsigned int tmp;
 	int i = 0;
-	while(fscanf(fptr,"%x", mem[i++]) != EOF);
-	for (; i < MEM_SIZE; mem[i++] = 0);
+	while (i < MEM_SIZE && fscanf(fptr, "%x", &tmp) == 1) {
+		mem[i++] = tmp;
+	}
+	for (; i < MEM_SIZE; i++) mem[i] = 0;
 	fclose(fptr);
 
 	// Invoke the CPU

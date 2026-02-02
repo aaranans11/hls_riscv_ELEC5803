@@ -1,0 +1,5 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.sim/sim_1/synth/timing/xsim/cpu_time_synth.v,1769400008,verilog,,,,cpu;cpu_cpu_Pipeline_PROGRAM_LOOP;cpu_cpu_Pipeline_VITIS_LOOP_22_1;cpu_flow_control_loop_pipe_sequential_init;cpu_reg_file_RAM_1WNR_AUTO_1R1W;glbl,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

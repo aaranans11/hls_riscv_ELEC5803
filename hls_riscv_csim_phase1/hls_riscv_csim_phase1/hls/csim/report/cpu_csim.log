@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../loop.c in debug mode
+   Compiling ../../../../../RISCV-RV32I-H1/riscv32i_tb.cc in debug mode
+   Compiling ../../../../../RISCV-RV32I-H1/riscv32i.cc in debug mode
+   Generating csim.exe
+mem[0]=405ff3f0 mem[1]=00000000
+Illegal instruction at PC = 0000000c
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Jan 25 22:17:36 2026
+# Process ID         : 4608
+# Current directory  : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/cpu/xsim_script.tcl}
+# Log file           : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/xsim.log
+# Journal file       : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog\xsim.jou
+# Running On         : BR1L25-1006821
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 265H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 68137 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 78337 MB
+# Available Virtual  : 52300 MB
+#-----------------------------------------------------------
+source xsim.dir/cpu/xsim_script.tcl
+# xsim {cpu} -autoloadwcfg -tclbatch {cpu.tcl}
+Time resolution is 1 ps
+source cpu.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "865000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 925 ns : File "C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/sim/verilog/cpu.autotb.v" Line 275
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jan 25 22:17:40 2026...

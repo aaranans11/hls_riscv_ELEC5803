@@ -1,0 +1,6 @@
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_cpu.cpp
+   Compiling riscv32i.cc_pre.cc.tb.cc
+   Compiling riscv32i_tb.cc_pre.cc.tb.cc
+   Compiling apatb_cpu_ir.ll
+   Generating cosim.tv.exe

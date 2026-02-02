@@ -1,0 +1,33 @@
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2497:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2497:5: note: FIX-IT applied suggested code changes
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2511:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2511:5: note: FIX-IT applied suggested code changes
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2525:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:2525:5: note: FIX-IT applied suggested code changes
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:6045:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:6045:7: note: FIX-IT applied suggested code changes
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:49499:13: error: Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=mem core=RAM_1P_BRAM
+            ^
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:49505:3: remark: Added loop label VITIS_LOOP_22_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < (1 << 5); i++)
+  ^
+  VITIS_LOOP_22_1: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:49505:3: note: FIX-IT applied suggested code changes
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:49752:3: remark: Added loop label VITIS_LOOP_269_2:   [xilinx-label-all-loops]
+  for (int i = 0; i < (1 << 5); i++)
+  ^
+  VITIS_LOOP_269_2: 
+C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc:49752:3: note: FIX-IT applied suggested code changes

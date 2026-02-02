@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1\\hls_riscv_csim_phase1\\hls_riscv_csim_phase1.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/25/26 21:37:14",
+ "timestampMillis": "1769395034920",
+ "buildStep": {
+  "cmdId": "2e9b8615-aa63-4f5a-b7bf-4d830be96c2e",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1\\hls_riscv_csim_phase1\\logs\\hls_riscv_csim_phase1.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1\\hls_config.cfg --work_dir hls_riscv_csim_phase1 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1\\hls_config.cfg",
+   "--work_dir",
+   "hls_riscv_csim_phase1"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/25/26 21:37:14",
+ "timestampMillis": "1769395034921",
+ "status": {
+  "cmdId": "2e9b8615-aa63-4f5a-b7bf-4d830be96c2e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/25/26 21:37:26",
+ "timestampMillis": "1769395046116",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cpu",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i.cc",
+     "C:/Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/25/26 21:37:26",
+ "timestampMillis": "1769395046117",
+ "buildStep": {
+  "cmdId": "7dcfc6c6-8b5d-4fb3-af7d-6f14b7634e06",
+  "name": "",
+  "logFile": "C:/Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1\\hls_riscv_csim_phase1\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/25/26 21:37:26",
+ "timestampMillis": "1769395046118",
+ "status": {
+  "cmdId": "7dcfc6c6-8b5d-4fb3-af7d-6f14b7634e06",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/25/26 21:37:44",
+ "timestampMillis": "1769395064527",
+ "status": {
+  "cmdId": "7dcfc6c6-8b5d-4fb3-af7d-6f14b7634e06",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/25/26 21:37:44",
+ "timestampMillis": "1769395064636",
+ "status": {
+  "cmdId": "2e9b8615-aa63-4f5a-b7bf-4d830be96c2e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/25/26 21:37:44",
+ "timestampMillis": "1769395064637",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/25/26 21:37:44",
+ "timestampMillis": "1769395064637",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

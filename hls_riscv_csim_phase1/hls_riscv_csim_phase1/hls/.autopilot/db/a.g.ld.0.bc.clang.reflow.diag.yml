@@ -1,0 +1,96 @@
+--- !Passed
+Pass:            reflow-pragma-preprocess
+Name:            PragmaResourceTopArg
+DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 16, Column: 1 }
+Function:        _Z3cpuP7ap_uintILi32EEPVS_ILi4EE
+Args:            
+  - String:          'The resource pragma (bind_storage) on top-level function argument, in '''
+  - Pragma:          call
+    DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 16, Column: 1 }
+  - String:          ''' is unsupported, please use INTERFACE pragma instead'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_cpu_ir
+Args:            
+  - Callee:          'cpu(ap_uint<32>*, ap_uint<4> volatile*)'
+    DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 13, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_cpu_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 29, Column: 17 }
+Function:        _Z3cpuP7ap_uintILi32EEPVS_ILi4EE
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        PROGRAM_LOOP
+  - String:          '''('
+  - LoopLoc:         '../RISCV-RV32I-H1/riscv32i.cc:29:17'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_22_1
+  - String:          '> at '
+  - LoopLoc:         '../RISCV-RV32I-H1/riscv32i.cc:22:20'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 22, Column: 20 }
+Function:        _Z3cpuP7ap_uintILi32EEPVS_ILi4EE
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  cpu
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_22_1
+  - String:          ' '
+  - LoopLoc:         '../RISCV-RV32I-H1/riscv32i.cc:22:20'
+    DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 22, Column: 20 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        PROGRAM_LOOP
+  - String:          '> at '
+  - LoopLoc:         '../RISCV-RV32I-H1/riscv32i.cc:29:17'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 29, Column: 17 }
+Function:        _Z3cpuP7ap_uintILi32EEPVS_ILi4EE
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  cpu
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        PROGRAM_LOOP
+  - String:          ' '
+  - LoopLoc:         '../RISCV-RV32I-H1/riscv32i.cc:29:17'
+    DebugLoc:        { File: ../RISCV-RV32I-H1/riscv32i.cc, Line: 29, Column: 17 }
+  - String:          ' '
+...

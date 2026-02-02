@@ -1,0 +1,23 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-6996" msg_severity="WARNING" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:16:13" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cpu" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cpu" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:15:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cpu" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=pstrb" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:16:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cpu" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mem core=RAM_1P_BRAM" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:16:1" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call" Pragma-DebugLoc="File ../RISCV-RV32I-H1/riscv32i.cc Line 16 Column 1"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:22:20" msg_body="pipeline   1 cpu config_compile -pipeline_loops 64VITIS_LOOP_22_1 ../RISCV-RV32I-H1/riscv32i.cc:22:20">
+        <args LoopLoc="../RISCV-RV32I-H1/riscv32i.cc:22:20" LoopLoc-DebugLoc="File ../RISCV-RV32I-H1/riscv32i.cc Line 22 Column 20" LoopName="VITIS_LOOP_22_1" PragmaFunction="cpu" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../RISCV-RV32I-H1/riscv32i.cc:29:17" msg_body="pipeline   1 cpu config_compile -pipeline_loops 64PROGRAM_LOOP ../RISCV-RV32I-H1/riscv32i.cc:29:17">
+        <args LoopLoc="../RISCV-RV32I-H1/riscv32i.cc:29:17" LoopLoc-DebugLoc="File ../RISCV-RV32I-H1/riscv32i.cc Line 29 Column 17" LoopName="PROGRAM_LOOP" PragmaFunction="cpu" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+</xilinx:hls_fe_msgs>

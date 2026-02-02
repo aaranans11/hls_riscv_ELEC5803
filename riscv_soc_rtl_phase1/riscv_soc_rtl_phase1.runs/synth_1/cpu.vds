@@ -1,0 +1,314 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Jan 25 22:58:58 2026
+# Process ID         : 20784
+# Current directory  : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.runs/synth_1
+# Command line       : vivado.exe -log cpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu.tcl
+# Log file           : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.runs/synth_1/cpu.vds
+# Journal file       : C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.runs/synth_1\vivado.jou
+# Running On         : BR1L25-1006821
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 265H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 68137 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 78337 MB
+# Available Virtual  : 51467 MB
+#-----------------------------------------------------------
+source cpu.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/utils_1/imports/synth_1/cpu.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/utils_1/imports/synth_1/cpu.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top cpu -part xa7z010clg225-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7z010'
+INFO: [Device 21-403] Loading part xa7z010clg225-1I
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20388
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1290.301 ; gain = 541.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cpu_reg_file_RAM_1WNR_AUTO_1R1W' [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_reg_file_RAM_1WNR_AUTO_1R1W.v:7]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressWidth bound to: 5 - type: integer 
+	Parameter AddressRange bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'cpu_reg_file_RAM_1WNR_AUTO_1R1W' (0#1) [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_reg_file_RAM_1WNR_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'cpu_cpu_Pipeline_VITIS_LOOP_22_1' [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_VITIS_LOOP_22_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cpu_flow_control_loop_pipe_sequential_init' [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_flow_control_loop_pipe_sequential_init' (0#1) [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_cpu_Pipeline_VITIS_LOOP_22_1' (0#1) [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_VITIS_LOOP_22_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cpu_cpu_Pipeline_PROGRAM_LOOP' [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_cpu_Pipeline_PROGRAM_LOOP' (0#1) [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (0#1) [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu.v:9]
+INFO: [Synth 8-6014] Unused sequential element ap_predicate_pred445_state6_reg was removed.  [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v:364]
+INFO: [Synth 8-6014] Unused sequential element ap_predicate_pred355_state5_reg was removed.  [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v:388]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-7129] Port reset in module cpu_reg_file_RAM_1WNR_AUTO_1R1W is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1418.160 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1418.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1418.160 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7z010clg225-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3936] Found unconnected internal register 'addr_reg_1251_reg' and it is trimmed from '32' to '12' bits. [C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.srcs/sources_1/imports/verilog/cpu_cpu_Pipeline_PROGRAM_LOOP.v:360]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.160 ; gain = 669.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 13    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 34    
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 16    
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 5     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1677.301 ; gain = 928.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object          | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|cpu         | reg_file_U/ram0_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1691.176 ; gain = 942.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:27 . Memory (MB): peak = 1768.648 ; gain = 1019.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object          | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|cpu         | reg_file_U/ram0_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance reg_file_U/ram0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1781.906 ; gain = 1033.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1927.590 ; gain = 1178.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1927.590 ; gain = 1178.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1927.590 ; gain = 1178.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1927.590 ; gain = 1178.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1930.609 ; gain = 1181.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1930.609 ; gain = 1181.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    60|
+|3     |LUT1     |     1|
+|4     |LUT2     |   219|
+|5     |LUT3     |    98|
+|6     |LUT4     |   210|
+|7     |LUT5     |   185|
+|8     |LUT6     |   662|
+|9     |RAMB36E1 |     1|
+|10    |FDRE     |   405|
+|11    |FDSE     |     2|
+|12    |IBUF     |    35|
+|13    |OBUF     |    51|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1930.609 ; gain = 1181.926
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:29 . Memory (MB): peak = 1930.609 ; gain = 1181.926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1930.609 ; gain = 1181.926
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1939.719 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1943.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7893d715
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1943.379 ; gain = 1404.039
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1943.379 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/riscv_soc_rtl_phase1/riscv_soc_rtl_phase1.runs/synth_1/cpu.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file cpu_utilization_synth.rpt -pb cpu_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 25 22:59:42 2026...

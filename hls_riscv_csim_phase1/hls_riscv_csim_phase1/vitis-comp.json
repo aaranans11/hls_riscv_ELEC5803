@@ -1,0 +1,9 @@
+{
+  "name": "hls_riscv_csim_phase1",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": ["..\/hls_config.cfg"],
+    "work_dir": "."
+  }
+}

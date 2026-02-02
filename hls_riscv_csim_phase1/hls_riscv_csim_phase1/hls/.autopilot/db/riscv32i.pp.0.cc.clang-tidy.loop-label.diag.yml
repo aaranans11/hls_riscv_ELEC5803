@@ -1,0 +1,84 @@
+---
+MainSourceFile:  'C:/Users/aa099259/GitHub_personal/hls_riscv_ELEC5803/hls_riscv_csim_phase1/hls_riscv_csim_phase1/hls/.autopilot/db/riscv32i.pp.0.cc'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          287859
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          288330
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          288802
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          634205
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn''t exist at all '
+      FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\RISCV-RV32I-H1\riscv32i.cc'
+      FileOffset:      16
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_22_1:  '
+      FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\RISCV-RV32I-H1\riscv32i.cc'
+      FileOffset:      22
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          2229630
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_22_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_269_2:  '
+      FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\RISCV-RV32I-H1\riscv32i.cc'
+      FileOffset:      269
+      Replacements:
+        - FilePath:        'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1\hls_riscv_csim_phase1\hls\.autopilot\db\riscv32i.pp.0.cc'
+          Offset:          2234590
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_269_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\aa099259\GitHub_personal\hls_riscv_ELEC5803\hls_riscv_csim_phase1'
+...

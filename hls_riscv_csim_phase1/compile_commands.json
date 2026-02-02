@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=cpu",
+      "-c",
+      "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i.cc"
+    ],
+    "file": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i.cc"
+  },
+  {
+    "directory": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\hls_riscv_csim_phase1",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i_tb.cc"
+    ],
+    "file": "C:\\Users\\aa099259\\GitHub_personal\\hls_riscv_ELEC5803\\RISCV-RV32I-H1\\riscv32i_tb.cc"
+  }
+]
